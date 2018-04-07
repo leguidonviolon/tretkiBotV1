@@ -1,0 +1,55 @@
+Hey, creator of the bot here.
+
+This package contains everything you need to run your own 90-9-1 subreddit.
+
+CONTAINS:
+
+obot.py ->  This file contains the parameters for the login of the bot.  You need to fill the blanks
+with the ids that reddit gives you when you setup your app.
+
+How to setup obot.py ->  Shortcut to a reddit link that explains how to setup obot.py to work with your bot.
+
+css.txt ->  A nice css for the subreddit.  It also has the downvote arrow removed, the flairs already setup and some other stuff.
+
+[SUBNAME]bot.py ->  This is the main bot.  You need to run it to kick and add members.  You'll have to edit some fields in there,
+like the sub name and the parameters you want for the bot.  NOTE:  THE SUBREDDIT'S NAME IS CASE SENSITIVE.
+
+WHAT TO DO BEFORE RUNNING THE BOT
+
+1.  Create your subreddit.
+
+2.  Create the bot's account and add it as a moderator to your subreddit.
+
+3.  Make some comments on /r/freekarma or something like that using the bot's account.  This is to remove the CAPTCHA for when
+the bot posts the recap.
+
+4.  Set it up.  Here are the base settings:
+	Subreddit Settings
+		->  Type: Private
+	Edit stylesheet
+		->  Copy/Paste css.txt
+	Edit flair
+		->  Enable user flair in this subreddit
+		->  Grant flair
+			->  Jump to user: [Your username]
+				->  flair text:  [ANYTHING YOU WANT]
+				->  css class: special
+			->  Jump to user: [Your bot]
+				->  flair text:  [ANYTHING YOU WANT]
+				->  css class: special
+
+6.  Install python 2.7 (https://www.python.org/download/releases/2.7/)
+
+7.  Install PRAW (https://praw.readthedocs.org/en/stable/index.html#installation)
+
+8.  Configure obot.py.
+
+9.  Configure [SUBNAME]bot.py
+
+10.  Run the bot!  Check if everything runs smoothly.  Also, notice at the end if it asks for a captcha.  If it does, farm more karma
+with the bot's account.
+
+AND VOILÀ!
+
+After these 10 steps, you should see your first members rolling in.  If it didn't work for you, message /r/tretki and we'll get to you
+ASAP to help you fix your problems.
